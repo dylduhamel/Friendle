@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
      function updateGuessedWords(letter) {
           const currentWordArr = getCurrentWordArr();
 
-          if (currentWordArr && currentWordArr.length < wordLength) { /** The 5 will have to change */
+          if (currentWordArr && currentWordArr.length < wordLength) { 
                currentWordArr.push(letter);
 
                const availableSpaceElement = document.getElementById(String(availableSpace));

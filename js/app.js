@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
           const currentWordArr = getCurrentWordArr();
 
           if (currentWordArr.length != wordLength) {
-               window.alert(`Word must be ${wordLength} letters, idiot!`) 
+               window.alert(`Word must be ${wordLength} letters, silly!`) 
                return;
           }
 
